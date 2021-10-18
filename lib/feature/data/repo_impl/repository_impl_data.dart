@@ -5,7 +5,7 @@ import 'package:flutter_mvp_project/feature/domain/entity/entity.dart';
 import 'package:flutter_mvp_project/feature/domain/repository/repository.dart';
 import 'package:http/http.dart' as http;
 
-class RepositoryDataImpl extends Repository {
+class RepositoryDataImpl implements Repository {
   @override
   Future<List<Entity>> fetchCurrencies() async {
     String cryptoUrl = "https://jsonplaceholder.typicode.com/albums/";
