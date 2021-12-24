@@ -1,6 +1,6 @@
 import 'package:flutter_mvp_project/core/init/flavor_injector.dart';
-import 'package:flutter_mvp_project/feature/domain/presenter.dart/presenter.dart';
-import 'package:flutter_mvp_project/feature/domain/repository/repository.dart';
+import 'package:flutter_mvp_project/feature/home/domain/presenter.dart/presenter.dart';
+import 'package:flutter_mvp_project/feature/home/domain/repository/repository.dart';
 
 class ListPresenter {
   final ListViewContract _view;

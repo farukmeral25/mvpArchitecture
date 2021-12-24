@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:flutter_mvp_project/feature/data/exceptions/fetch_exception.dart';
-import 'package:flutter_mvp_project/feature/domain/entity/entity.dart';
-import 'package:flutter_mvp_project/feature/domain/repository/repository.dart';
+import 'package:flutter_mvp_project/feature/home/data/exceptions/fetch_exception.dart';
+import 'package:flutter_mvp_project/feature/home/domain/entity/entity.dart';
+import 'package:flutter_mvp_project/feature/home/domain/repository/repository.dart';
 import 'package:http/http.dart' as http;
 
 class RepositoryDataImpl implements Repository {

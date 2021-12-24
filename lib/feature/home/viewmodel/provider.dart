@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_mvp_project/feature/domain/entity/entity.dart';
+import 'package:flutter_mvp_project/feature/home/domain/entity/entity.dart';
 
 class Provider extends ChangeNotifier {
   List<Entity> currenciesMOCK = [

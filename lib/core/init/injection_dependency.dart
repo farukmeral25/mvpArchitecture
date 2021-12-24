@@ -1,9 +1,10 @@
 import 'package:flutter_mvp_project/core/init/flavor_injector.dart';
-import 'package:flutter_mvp_project/feature/data/repo_impl/repository_impl_data.dart';
-import 'package:flutter_mvp_project/feature/data/repo_impl/repository_impl_mock.dart';
-import 'package:flutter_mvp_project/feature/domain/repository/repository.dart';
-import 'package:flutter_mvp_project/feature/modules/presenter_impl.dart';
-import 'package:flutter_mvp_project/feature/viewmodel/provider.dart';
+import 'package:flutter_mvp_project/feature/home/data/repo_impl/repository_impl_data.dart';
+import 'package:flutter_mvp_project/feature/home/data/repo_impl/repository_impl_mock.dart';
+import 'package:flutter_mvp_project/feature/home/domain/repository/repository.dart';
+import 'package:flutter_mvp_project/feature/home/modules/presenter_impl.dart';
+import 'package:flutter_mvp_project/feature/home/viewmodel/provider.dart';
+
 import 'package:get_it/get_it.dart';
 import 'package:http/http.dart' as http;
 

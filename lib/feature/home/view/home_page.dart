@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_mvp_project/feature/home/domain/entity/entity.dart';
 
-import 'package:flutter_mvp_project/feature/domain/entity/entity.dart';
-import 'package:flutter_mvp_project/feature/domain/presenter.dart/presenter.dart';
-import 'package:flutter_mvp_project/feature/modules/presenter_impl.dart';
+import 'package:flutter_mvp_project/feature/home/domain/presenter.dart/presenter.dart';
+import 'package:flutter_mvp_project/feature/home/modules/presenter_impl.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);

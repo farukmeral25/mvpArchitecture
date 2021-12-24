@@ -1,6 +1,6 @@
-import 'package:flutter_mvp_project/feature/data/repo_impl/repository_impl_data.dart';
-import 'package:flutter_mvp_project/feature/data/repo_impl/repository_impl_mock.dart';
-import 'package:flutter_mvp_project/feature/domain/repository/repository.dart';
+import 'package:flutter_mvp_project/feature/home/data/repo_impl/repository_impl_data.dart';
+import 'package:flutter_mvp_project/feature/home/data/repo_impl/repository_impl_mock.dart';
+import 'package:flutter_mvp_project/feature/home/domain/repository/repository.dart';
 
 enum Flavor { MOCK, PROD }
 
